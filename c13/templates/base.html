@@ -75,8 +75,8 @@
 								<a href="#" class="btn btn_shadow">подробнее</a>
 							</div>
 						</div>
-						<img class="slide_img__1" src="img/slide_01-1.png" alt="">
-						<img class="slide_img__2" src="img/slide_01-2.png" alt="">
+						<img class="slide_img__1" src="{% static 'img/slide_01-1.png' %}" alt="">
+						<img class="slide_img__2" src="{% static 'img/slide_01-2.png' %}" alt="">
 					</div>
 				</li>
 
@@ -90,8 +90,8 @@
 								<a href="#" class="btn btn_shadow">подробнее</a>
 							</div>
 						</div>
-						<img class="slide_img__1" src="img/slide_02-1.png" alt="">
-						<img class="slide_img__2" src="img/slide_02-2.png" alt="">
+						<img class="slide_img__1" src="{% static 'img/slide_02-1.png' %}"  alt="">
+						<img class="slide_img__2" src="{% static 'img/slide_02-2.png' %}"  alt="">
 					</div>
 				</li>
 
@@ -105,8 +105,8 @@
 								<a href="#" class="btn btn_shadow">подробнее</a>
 							</div>
 						</div>
-						<img class="slide_img__1" src="img/slide_03-1.png" alt="">
-						<img class="slide_img__2" src="img/slide_03-2.png" alt="">
+						<img class="slide_img__1" src="{% static 'img/slide_03-1.png' %}" alt="">
+						<img class="slide_img__2" src="{% static 'img/slide_03-2.png' %}" alt="">
 					</div>
 				</li>
 			</ul>
@@ -191,7 +191,7 @@
 		<div class="row">
 			<div class="col-md-3">
 				<div class="our_team__item trs_all">
-					<img class="trs_opacity" src="img/our_team__1.jpg" alt="">
+					<img class="trs_opacity" src="{% static 'img/our_team__1.jpg' %}" alt="">
 					<div class="our_team__info trs_transform">
 						<h4>Иван Дионтьев
 							<span>Разработка, Продвижение</span>
@@ -217,7 +217,7 @@
 
 			<div class="col-md-3">
 				<div class="our_team__item trs_all">
-					<img class="trs_opacity" src="img/our_team__2.jpg" alt="">
+					<img class="trs_opacity" src="{% static 'img/our_team__2.jpg' %}" alt="">
 					<div class="our_team__info trs_transform">
 						<h4>Иван Дионтьев
 							<span>Дизайн, Наполнение</span>
@@ -243,7 +243,7 @@
 
 			<div class="col-md-3">
 				<div class="our_team__item trs_all">
-					<img class="trs_opacity" src="img/our_team__3.jpg" alt="">
+					<img class="trs_opacity" src="{% static 'img/our_team__3.jpg' %}" alt="">
 					<div class="our_team__info trs_transform">
 						<h4>Иван Дионтьев
 							<span>Оптимизайия</span>
@@ -269,7 +269,7 @@
 
 			<div class="col-md-3">
 				<div class="our_team__item trs_all">
-					<img class="trs_opacity" src="img/our_team__4.jpg" alt="">
+					<img class="trs_opacity" src="{% static 'img/our_team__4.jpg' %}" alt="">
 					<div class="our_team__info trs_transform">
 						<h4>Иван Дионтьев
 							<span>Поддержка</span>
@@ -357,25 +357,25 @@
 		<div class="row">
 			<div class="col-xs-6 col-sm-3 services_logo">
 				<a class="trs_opacity" href="#">
-					<img src="img/services_logo__1.jpg" alt="">
+					<img src="{% static 'img/services_logo__1.jpg' %}" alt="">
 				</a>
 			</div>
 
 			<div class="col-xs-6 col-sm-3 services_logo">
 				<a class="trs_opacity" href="#">
-					<img src="img/services_logo__2.jpg" alt="">
+					<img src="{% static 'img/services_logo__2.jpg' %}" alt="">
 				</a>
 			</div>
 
 			<div class="col-xs-6 col-sm-3 services_logo">
 				<a class="trs_opacity" href="#">
-					<img src="img/services_logo__3.jpg" alt="">
+					<img src="{% static 'img/services_logo__3.jpg' %}" alt="">
 				</a>
 			</div>
 
 			<div class="col-xs-6 col-sm-3 services_logo">
 				<a class="trs_opacity" href="#">
-					<img src="img/services_logo__4.jpg" alt="">
+					<img src="{% static 'img/services_logo__4.jpg' %}" alt="">
 				</a>
 			</div>
 		</div>
@@ -388,11 +388,11 @@
 		<h2>Наши работы</h2>
 
 		<div id="slider_featured__1" class="flexslider">
-			<img src="img/featured_slider__top.png" alt="">
+			<img src="{% static 'img/featured_slider__top.png' %}" alt="">
 			<ul class="slides">
-				<li><img src="img/featured_slide__1.png" alt=""></li>
-				<li><img src="img/featured_slide__2.png" alt=""></li>
-				<li><img src="img/featured_slide__3.png" alt=""></li>
+				<li><img src="{% static 'img/featured_slide__1.png' %}" alt=""></li>
+				<li><img src="{% static 'img/featured_slide__2.png' %}" alt=""></li>
+				<li><img src="{% static 'img/featured_slide__3.png' %}" alt=""></li>
 			</ul>
 		</div>
 
@@ -400,8 +400,8 @@
 			<div class="item">
 				<div class="row">
 					<div class="col-xs-4">
-						<a class="item_content" href="img/featured_tile__1.jpg">
-							<img src="img/featured_tile__1.jpg" alt="">
+						<a class="item_content" href="{% static 'img/featured_tile__1.jpg' %}">
+							<img src="{% static 'img/featured_tile__1.jpg' %}" alt="">
 							<div class="item_caption">
 								<span></span>
 								<h4>Заголовок #1</h4>
@@ -411,8 +411,8 @@
 					</div>
 
 					<div class="col-xs-4">
-						<a class="item_content" href="img/featured_tile__2.jpg">
-							<img src="img/featured_tile__2.jpg" alt="">
+						<a class="item_content" href="{% static 'img/featured_tile__2.jpg' %}">
+							<img src="{% static 'img/featured_tile__2.jpg' %}" alt="">
 							<div class="item_caption">
 								<span></span>
 								<h4>Заголовок #2</h4>
@@ -422,8 +422,8 @@
 					</div>
 
 					<div class="col-xs-4">
-						<a class="item_content" href="img/featured_tile__3.jpg">
-							<img src="img/featured_tile__3.jpg" alt="">
+						<a class="item_content" href="{% static 'img/featured_tile__3.jpg' %}">
+							<img src="{% static 'img/featured_tile__3.jpg' %}" alt="">
 							<div class="item_caption">
 								<span></span>
 								<h4>Заголовок #3</h4>
@@ -435,8 +435,8 @@
 
 				<div class="row">
 					<div class="col-xs-4">
-						<a class="item_content" href="img/featured_tile__4.jpg">
-							<img src="img/featured_tile__4.jpg" alt="">
+						<a class="item_content" href="{% static 'img/featured_tile__4.jpg' %}">
+							<img src="{% static 'img/featured_tile__4.jpg' %}" alt="">
 							<div class="item_caption">
 								<span></span>
 								<h4>Заголовок #4</h4>
@@ -446,8 +446,8 @@
 					</div>
 
 					<div class="col-xs-4">
-						<a class="item_content" href="img/featured_tile__5.jpg">
-							<img src="img/featured_tile__5.jpg" alt="">
+						<a class="item_content" href="{% static 'img/featured_tile__5.jpg' %}">
+							<img src="{% static 'img/featured_tile__5.jpg' %}" alt="">
 							<div class="item_caption">
 								<span></span>
 								<h4>Заголовок #5</h4>
@@ -457,8 +457,8 @@
 					</div>
 
 					<div class="col-xs-4">
-						<a class="item_content" href="img/featured_tile__6.jpg">
-							<img src="img/featured_tile__6.jpg" alt="">
+						<a class="item_content" href="{% static 'img/featured_tile__6.jpg' %}">
+							<img src="{% static 'img/featured_tile__6.jpg' %}" alt="">
 							<div class="item_caption">
 								<span></span>
 								<h4>Заголовок #6</h4>
@@ -472,8 +472,8 @@
 			<div class="item">
 				<div class="row">
 					<div class="col-xs-4">
-						<a class="item_content" href="img/featured_tile__2.jpg">
-							<img src="img/featured_tile__2.jpg" alt="">
+						<a class="item_content" href="{% static 'img/featured_tile__2.jpg' %}">
+							<img src="{% static 'img/featured_tile__2.jpg' %}" alt="">
 							<div class="item_caption">
 								<span></span>
 								<h4>Заголовок #7</h4>
@@ -483,8 +483,8 @@
 					</div>
 
 					<div class="col-xs-4">
-						<a class="item_content" href="img/featured_tile__3.jpg">
-							<img src="img/featured_tile__3.jpg" alt="">
+						<a class="item_content" href="{% static 'img/featured_tile__3.jpg' %}">
+							<img src="{% static 'img/featured_tile__3.jpg' %}" alt="">
 							<div class="item_caption">
 								<span></span>
 								<h4>Заголовок #8</h4>
@@ -494,8 +494,8 @@
 					</div>
 
 					<div class="col-xs-4">
-						<a class="item_content" href="img/featured_tile__1.jpg">
-							<img src="img/featured_tile__1.jpg" alt="">
+						<a class="item_content" href="{% static 'img/featured_tile__1.jpg' %}">
+							<img src="{% static 'img/featured_tile__1.jpg' %}" alt="">
 							<div class="item_caption">
 								<span></span>
 								<h4>Заголовок #9</h4>
@@ -507,8 +507,8 @@
 
 				<div class="row">
 					<div class="col-xs-4">
-						<a class="item_content" href="img/featured_tile__5.jpg">
-							<img src="img/featured_tile__5.jpg" alt="">
+						<a class="item_content" href="{% static 'img/featured_tile__5.jpg' %}">
+							<img src="{% static 'img/featured_tile__5.jpg' %}" alt="">
 							<div class="item_caption">
 								<span></span>
 								<h4>Заголовок #10</h4>
@@ -518,8 +518,8 @@
 					</div>
 
 					<div class="col-xs-4">
-						<a class="item_content" href="img/featured_tile__6.jpg">
-							<img src="img/featured_tile__6.jpg" alt="">
+						<a class="item_content" href="{% static 'img/featured_tile__6.jpg' %}">
+							<img src="{% static 'img/featured_tile__6.jpg' %}" alt="">
 							<div class="item_caption">
 								<span></span>
 								<h4>Заголовок #11</h4>
@@ -529,8 +529,8 @@
 					</div>
 
 					<div class="col-xs-4">
-						<a class="item_content" href="img/featured_tile__4.jpg">
-							<img src="img/featured_tile__4.jpg" alt="">
+						<a class="item_content" href="{% static 'img/featured_tile__4.jpg' %}">
+							<img src="{% static 'img/featured_tile__4.jpg' %}" alt="">
 							<div class="item_caption">
 								<span></span>
 								<h4>Заголовок #12</h4>
@@ -544,8 +544,8 @@
 			<div class="item">
 				<div class="row">
 					<div class="col-xs-4">
-						<a class="item_content" href="img/featured_tile__3.jpg">
-							<img src="img/featured_tile__3.jpg" alt="">
+						<a class="item_content" href="i{% static 'mg/featured_tile__3.jpg"' %}>
+							<img src="{% static 'img/featured_tile__3.jpg' %}" alt="">
 							<div class="item_caption">
 								<span></span>
 								<h4>Заголовок #13</h4>
@@ -555,8 +555,8 @@
 					</div>
 
 					<div class="col-xs-4">
-						<a class="item_content" href="img/featured_tile__1.jpg">
-							<img src="img/featured_tile__1.jpg" alt="">
+						<a class="item_content" href="{% static 'img/featured_tile__1.jpg' %}">
+							<img src="{% static 'img/featured_tile__1.jpg' %}" alt="">
 							<div class="item_caption">
 								<span></span>
 								<h4>Заголовок #14</h4>
@@ -566,8 +566,8 @@
 					</div>
 
 					<div class="col-xs-4">
-						<a class="item_content" href="img/featured_tile__2.jpg">
-							<img src="img/featured_tile__2.jpg" alt="">
+						<a class="item_content" href="{% static 'img/featured_tile__2.jpg' %}">
+							<img src="{% static 'img/featured_tile__2.jpg' %}" alt="">
 							<div class="item_caption">
 								<span></span>
 								<h4>Заголовок #15</h4>
@@ -579,8 +579,8 @@
 
 				<div class="row">
 					<div class="col-xs-4">
-						<a class="item_content" href="img/featured_tile__6.jpg">
-							<img src="img/featured_tile__6.jpg" alt="">
+						<a class="item_content" href="{% static 'img/featured_tile__6.jpg' %}">
+							<img src="{% static 'img/featured_tile__6.jpg' %}" alt="">
 							<div class="item_caption">
 								<span></span>
 								<h4>Заголовок #16</h4>
@@ -590,8 +590,8 @@
 					</div>
 
 					<div class="col-xs-4">
-						<a class="item_content" href="img/featured_tile__4.jpg">
-							<img src="img/featured_tile__4.jpg" alt="">
+						<a class="item_content" href="{% static 'img/featured_tile__4.jpg' %}">
+							<img src="{% static 'img/featured_tile__4.jpg' %}" alt="">
 							<div class="item_caption">
 								<span></span>
 								<h4>Заголовок #17</h4>
@@ -601,8 +601,8 @@
 					</div>
 
 					<div class="col-xs-4">
-						<a class="item_content" href="img/featured_tile__5.jpg">
-							<img src="img/featured_tile__5.jpg" alt="">
+						<a class="item_content" href="{% static 'img/featured_tile__5.jpg' %}">
+							<img src="{% static 'img/featured_tile__5.jpg' %}" alt="">
 							<div class="item_caption">
 								<span></span>
 								<h4>Заголовок #18</h4>
@@ -655,7 +655,7 @@
 
 		<div class="row">
 			<div class="col-sm-4 blog_article">
-				<a href="blog_post.html"><img src="img/blog__1.jpg" alt=""></a>
+				<a href="blog_post.html"><img src="{% static 'img/blog__1.jpg' %}" alt=""></a>
 				<h4 class="blog_article__title"><a href="blog_post.html">Заголовок новости #1</a></h4>
 				<p class="blog_article__text">Агентская комиссия, в рамках сегодняшних воззрений, все еще интересна для многих. Рекламная кампания развивает жизненный цикл продукции. Целевой трафик, на первый взгляд, консолидирует эмпирический баинг и селлинг. </p>
 				<p class="blog_article__info">
@@ -666,7 +666,7 @@
 			</div>
 
 			<div class="col-sm-4 blog_article">
-				<a href="blog_post.html"><img src="img/blog__2.jpg" alt=""></a>
+				<a href="blog_post.html"><img src="{% static 'img/blog__2.jpg' %}" alt=""></a>
 				<h4 class="blog_article__title"><a href="blog_post.html">Заголовок новости #2</a></h4>
 				<p class="blog_article__text">Агентская комиссия, в рамках сегодняшних воззрений, все еще интересна для многих. Рекламная кампания развивает жизненный цикл продукции. Целевой трафик, на первый взгляд, консолидирует эмпирический баинг и селлинг. </p>
 				<p class="blog_article__info">
@@ -677,7 +677,7 @@
 			</div>
 
 			<div class="col-sm-4 blog_article">
-				<a href="blog_post.html"><img src="img/blog__3.jpg" alt=""></a>
+				<a href="blog_post.html"><img src="{% static 'img/blog__3.jpg' %}" alt=""></a>
 				<h4 class="blog_article__title"><a href="blog_post.html">Заголовок новости #3</a></h4>
 				<p class="blog_article__text">Агентская комиссия, в рамках сегодняшних воззрений, все еще интересна для многих. Рекламная кампания развивает жизненный цикл продукции. Целевой трафик, на первый взгляд, консолидирует эмпирический баинг и селлинг. </p>
 				<p class="blog_article__info">
@@ -774,9 +774,9 @@
 	<section class="background_video">
 		<video id="video_player" loop>
 			<!-- WebM/VP8 for Firefox4, Opera, and Chrome -->
-			<source class="webm" type="video/webm" src="video/micro.webm">
+			<source class="webm" type="video/webm" src="{% static 'video/micro.webm' %}">
 			<!-- MP4 for Safari, IE9, iPhone, iPad, Android, and Windows Phone 7 -->
-			<source class="mp4" type="video/mp4" src="video/micro.mp4">
+			<source class="mp4" type="video/mp4" src="{% static 'video/micro.mp4' %}">
 		</video>
 
 		<script>
